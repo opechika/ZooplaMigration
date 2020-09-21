@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-21T17:52:16.487Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9594000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Customer cannot search for empty location",
+        "description": "",
+        "id": "for-sale-properties;customer-cannot-search-for-empty-location",
+        "after": [
+          {
+            "result": {
+              "duration": 1513000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3063000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.iNavigateToZooplaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 459000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter \" \" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" \"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5021000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "an error message is displayed on search field",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.an_error_message_is_displayed_on_search_field()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negativeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-09-21T17:52:36.370Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6961000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Customer gets error page for invalid location",
+        "description": "",
+        "id": "for-sale-properties;customer-gets-error-page-for-invalid-location",
+        "after": [
+          {
+            "result": {
+              "duration": 2832000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "co.uk.zoopla.hooks.Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3318000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I navigate to zoopla homepage",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.iNavigateToZooplaHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter \"wwwwwwwwww\" into the search field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wwwwwwwwww\"",
+                  "offset": 8
+                }
+              ],
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_enter_into_the_search_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9536000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on Search button",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.i_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "an error page is displayed",
+            "match": {
+              "location": "co.uk.zoopla.stepDefinitions.ForSaleSearchSteps.an_error_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@negativeTest"
+          }
+        ]
+      }
+    ],
+    "name": "For Sale Properties",
+    "description": "  As a customer\n  I want the ability to search for any properties for sale\n  So that I can review the property before I buy",
+    "id": "for-sale-properties",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/zoopla/features/CustomerCanSearchForPropertiesForSale.feature",
+    "tags": []
+  }
+]

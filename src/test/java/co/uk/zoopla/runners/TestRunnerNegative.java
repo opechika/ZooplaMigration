@@ -14,5 +14,5 @@ import org.junit.runner.RunWith;
         ,tags = "@negativeTest"
 
 )
-public class TestRunnerNegativeTest {
+public class TestRunnerNegative {
 }

@@ -25,7 +25,7 @@ Scenario Outline: Customer can search for any property
   @negativeTest
   Scenario: Customer cannot search for empty location
     Given I navigate to zoopla homepage
-    When I enter "" into the search field
+    When I enter " " into the search field
     And I click on Search button
     Then an error message is displayed on search field
 
