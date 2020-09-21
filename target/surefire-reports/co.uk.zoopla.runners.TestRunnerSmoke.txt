@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: co.uk.zoopla.runners.TestRunnerSmoke
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.088 s - in co.uk.zoopla.runners.TestRunnerSmoke
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 54.879 s - in co.uk.zoopla.runners.TestRunnerSmoke
